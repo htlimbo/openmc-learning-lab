@@ -1,0 +1,154 @@
+[
+  {
+    "id": "baseline",
+    "statepoint": "results/raw/baseline.h5",
+    "statepoint_sha256": "9814c56f94a67707679a0b27861134925ff559b2c4086ff22718b262e7c3ccd2",
+    "initial_source": "box",
+    "seed": 1,
+    "particles": 5000,
+    "batches": 100,
+    "inactive": 30,
+    "generations_per_batch": 1,
+    "entropy_enabled": false,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "dd21d016ab9c9ac6345288ca22006ccb65e82abecc3066e21fd86617d98662ce"
+    }
+  },
+  {
+    "id": "uniform-i30-s1",
+    "statepoint": "results/raw/uniform-i30-s1.h5",
+    "statepoint_sha256": "3c96f20bd8a2f9447660c6801b2d497d5214313bdfb617fcf00cda529e9a8eb3",
+    "initial_source": "box",
+    "seed": 1,
+    "particles": 5000,
+    "batches": 100,
+    "inactive": 30,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "1df158833c9221c2948cef58bb5f528f98b6ca3ad76621587157297bbeba5e51"
+    }
+  },
+  {
+    "id": "point-i30-s1",
+    "statepoint": "results/raw/point-i30-s1.h5",
+    "statepoint_sha256": "612e4735b9b3e3f5230ece86607704d3e6e1f63463fc6f529d7782e0e59fab64",
+    "initial_source": "point",
+    "seed": 1,
+    "particles": 5000,
+    "batches": 100,
+    "inactive": 30,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "4cf7d34e6d39695b8d7ea1ea6e785495cf5c53c664b15b38331bcfd0c2cb77fe"
+    }
+  },
+  {
+    "id": "point-i100-s1",
+    "statepoint": "results/raw/point-i100-s1.h5",
+    "statepoint_sha256": "1af743dae8a6588aaa13a342282b4ce858ac3a6c96724039be5a3dc5bf90d1ba",
+    "initial_source": "point",
+    "seed": 1,
+    "particles": 5000,
+    "batches": 170,
+    "inactive": 100,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "597787b16633e53201d9ccd870827e98ba13505e4cc74599434d7dd83d74acbb"
+    }
+  },
+  {
+    "id": "point-i100-s11",
+    "statepoint": "results/raw/point-i100-s11.h5",
+    "statepoint_sha256": "96bd4c316ee38efbade89505d4ced68c140a962029757e582fc0b72e20bbc579",
+    "initial_source": "point",
+    "seed": 11,
+    "particles": 5000,
+    "batches": 170,
+    "inactive": 100,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "7d07d4ab7c4e864f35c06527fdc7f66b6dbf1778e84ed74c4e31db50d9f63314"
+    }
+  },
+  {
+    "id": "point-i100-s21",
+    "statepoint": "results/raw/point-i100-s21.h5",
+    "statepoint_sha256": "8f52d6fedcb8716e4ab04f82709867b2c39ddde795a2f35b0eeba2bd260606bf",
+    "initial_source": "point",
+    "seed": 21,
+    "particles": 5000,
+    "batches": 170,
+    "inactive": 100,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "27eeda5f50bd9b529fb2cc1dc2510c4cbff9f2322311c23adfe9e6798089d714"
+    }
+  },
+  {
+    "id": "point-i100-s31",
+    "statepoint": "results/raw/point-i100-s31.h5",
+    "statepoint_sha256": "2560db930f835560ed04b98452c1c795d8141584049a74148d2c41d8ed3a3393",
+    "initial_source": "point",
+    "seed": 31,
+    "particles": 5000,
+    "batches": 170,
+    "inactive": 100,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "dc047e8e348eacfddd33864f7e98487e978f4ce035d705400bac8364f261c19d"
+    }
+  },
+  {
+    "id": "point-i100-s41",
+    "statepoint": "results/raw/point-i100-s41.h5",
+    "statepoint_sha256": "fab990cb84870be041f685a085b2a5ddf5b2ab18814f30873ea1df73b9cded4f",
+    "initial_source": "point",
+    "seed": 41,
+    "particles": 5000,
+    "batches": 170,
+    "inactive": 100,
+    "generations_per_batch": 1,
+    "entropy_enabled": true,
+    "threads": 4,
+    "openmc_version": "0.16.0",
+    "input_sha256": {
+      "materials.xml": "609fa356b677403a512c4d05264a1fcada0a6aef1ba7309044f5f3a2c12e3994",
+      "geometry.xml": "5ecc37ad417c450b9b304274a8d7a9a9b63bd7510e63aebd9735e98caa64740a",
+      "settings.xml": "46a9a68dbcd5785e8faab4ce02f7683853c22aa0291a8e267a4d7641c620a37e"
+    }
+  }
+]

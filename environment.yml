@@ -1,0 +1,9 @@
+name: openmc-learning-lab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - openmc=0.16.0
+  - numpy
+  - matplotlib
+  - h5py

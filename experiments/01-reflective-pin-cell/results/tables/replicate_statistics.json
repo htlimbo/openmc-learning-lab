@@ -1,0 +1,19 @@
+{
+  "cases": [
+    "point-i100-s1",
+    "point-i100-s11",
+    "point-i100-s21",
+    "point-i100-s31",
+    "point-i100-s41"
+  ],
+  "n_independent_runs": 5,
+  "arithmetic_mean_k": 1.3421767466972334,
+  "sample_std_between_runs": 0.0020349563892316565,
+  "rms_reported_single_run_std_error": 0.0015445874703995922,
+  "between_run_std_over_rms_reported_error": 1.317475654975502,
+  "empirical_std_error_of_mean": 0.000910060163513901,
+  "seed_11_minus_seed_1": 0.005148745884564709,
+  "estimated_std_error_of_difference": 0.0021436439660573975,
+  "absolute_difference_in_combined_std_errors": 2.4018661522576963,
+  "interpretation": "Descriptive small-sample comparison, not proof of source convergence or variance calibration."
+}

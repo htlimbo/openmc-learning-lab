@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="water" temperature="293.6">
+    <density value="1.0" units="g/cm3" />
+    <nuclide name="H1" ao="2.0" />
+    <nuclide name="O16" ao="1.0" />
+    <sab name="c_H_in_H2O" />
+  </material>
+  <material id="2" name="UO2 fuel" depletable="true" temperature="293.6">
+    <density value="10.29769" units="g/cm3" />
+    <nuclide name="U234" ao="4.4843e-06" />
+    <nuclide name="U235" ao="0.00055815" />
+    <nuclide name="U238" ao="0.022408" />
+    <nuclide name="O16" ao="0.045829" />
+  </material>
+  <material id="3" name="Zr cladding" temperature="293.6">
+    <density value="6.55" units="g/cm3" />
+    <nuclide name="Zr90" ao="0.021827" />
+    <nuclide name="Zr91" ao="0.00476" />
+    <nuclide name="Zr92" ao="0.0072758" />
+    <nuclide name="Zr94" ao="0.0073734" />
+    <nuclide name="Zr96" ao="0.0011879" />
+  </material>
+</materials>

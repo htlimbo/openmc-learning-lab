@@ -1,0 +1,162 @@
+{
+  "library": "ENDF/B-VII.1 NNDC, local pin-cell subset",
+  "upstream": "https://github.com/openmc-data-storage/ENDF-B-VII.1-NNDC",
+  "files": [
+    {
+      "file": "B10.h5",
+      "materials": "B10",
+      "type": "neutron",
+      "sha256": "b2ce245ea654f1f839bff8a91fb14b0b0475c6e8a2abc23d41d97406dec1f6da",
+      "size_bytes": 999488,
+      "temperature_labels": {
+        "B10": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "B11.h5",
+      "materials": "B11",
+      "type": "neutron",
+      "sha256": "0a7c631ea87a09f2a5aff939d749b0821deeb2f5c98a8c439f76262fdf54967c",
+      "size_bytes": 1616624,
+      "temperature_labels": {
+        "B11": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "H1.h5",
+      "materials": "H1",
+      "type": "neutron",
+      "sha256": "7ac8ee2ebfd4afd61dabffc546116d4119ac35e4bb3c50605430019b7cbccc69",
+      "size_bytes": 71272,
+      "temperature_labels": {
+        "H1": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "O16.h5",
+      "materials": "O16",
+      "type": "neutron",
+      "sha256": "3518604d24921d02b330ece6e76963a6824291ab7aeb969edccbbbac362c1b6c",
+      "size_bytes": 4092760,
+      "temperature_labels": {
+        "O16": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "U234.h5",
+      "materials": "U234",
+      "type": "neutron",
+      "sha256": "420c7bcec778212f41cec5ae2b308a260a224cfeacd8b624854ab99c55fdae52",
+      "size_bytes": 4007960,
+      "temperature_labels": {
+        "U234": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "U235.h5",
+      "materials": "U235",
+      "type": "neutron",
+      "sha256": "1f8a93b3abd0c6f37b2c41f3c66adc475d29ddf6ed3c11b11d18b9646cb6d2db",
+      "size_bytes": 6098760,
+      "temperature_labels": {
+        "U235": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "U238.h5",
+      "materials": "U238",
+      "type": "neutron",
+      "sha256": "42454c40de5c9cab334acef64b0c198b6a5ccafb103ccc11254a63813ec16fc7",
+      "size_bytes": 10488392,
+      "temperature_labels": {
+        "U238": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "Zr90.h5",
+      "materials": "Zr90",
+      "type": "neutron",
+      "sha256": "6db8fe2c0f8f7edbcfcac881fdd3f9ed6a853f0a36d35f1a569d0e25c83c9181",
+      "size_bytes": 2180296,
+      "temperature_labels": {
+        "Zr90": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "Zr91.h5",
+      "materials": "Zr91",
+      "type": "neutron",
+      "sha256": "900a0545b46f6d27bffb8f5ae9a8b45facee3de34294d7e6484765066a8c17ef",
+      "size_bytes": 4472568,
+      "temperature_labels": {
+        "Zr91": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "Zr92.h5",
+      "materials": "Zr92",
+      "type": "neutron",
+      "sha256": "37c99fe1d0bcb322713b5f73fc75e5a34bcc33d791fbe00f8e2fe5c46676069f",
+      "size_bytes": 3330464,
+      "temperature_labels": {
+        "Zr92": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "Zr94.h5",
+      "materials": "Zr94",
+      "type": "neutron",
+      "sha256": "bdf8442263d3fdcfd1cf646bd243528d40b1b13af581c7ca0ab803a714f886e7",
+      "size_bytes": 4356816,
+      "temperature_labels": {
+        "Zr94": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "Zr96.h5",
+      "materials": "Zr96",
+      "type": "neutron",
+      "sha256": "7f13778c2927dc7de710273f3274f5a41be427481ff8f0b3edba3583a6c116be",
+      "size_bytes": 1884328,
+      "temperature_labels": {
+        "Zr96": [
+          "294K"
+        ]
+      }
+    },
+    {
+      "file": "c_H_in_H2O.h5",
+      "materials": "c_H_in_H2O",
+      "type": "thermal",
+      "sha256": "e61e37c38847cb10fbf7c35523b919db36007267f90342e3884e4b0b9a2a2b87",
+      "size_bytes": 952016,
+      "temperature_labels": {
+        "c_H_in_H2O": [
+          "294K"
+        ]
+      }
+    }
+  ]
+}

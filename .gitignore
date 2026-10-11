@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.mplconfig/
+experiments/*/runs/
+# The small, historical statepoints in results/raw are deliberately versioned.
+# Nuclear cross-section libraries belong outside this repository.
+cross_sections/
+*.log
+# Local notes and environment settings.
+HANDOFF.md
+LEARNING_LOG.md
+environment-record.json
+.vscode/
+_private/
+*.zip
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>5000</particles>
+  <batches>170</batches>
+  <inactive>100</inactive>
+  <generations_per_batch>1</generations_per_batch>
+  <source type="independent" strength="1.0" particle="neutron">
+    <space type="point">
+      <parameters>0.3 0.0 0.35</parameters>
+    </space>
+    <angle type="isotropic"/>
+    <energy type="discrete">
+      <parameters>2000000.0 1.0</parameters>
+    </energy>
+    <constraints>
+      <fissionable>true</fissionable>
+    </constraints>
+  </source>
+  <seed>1</seed>
+  <entropy_mesh>1</entropy_mesh>
+  <mesh id="1">
+    <dimension>4 4 4</dimension>
+    <lower_left>-0.39218 -0.39218 -0.5</lower_left>
+    <upper_right>0.39218 0.39218 0.5</upper_right>
+  </mesh>
+</settings>

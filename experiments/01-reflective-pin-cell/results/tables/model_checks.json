@@ -1,0 +1,76 @@
+{
+  "water_number_densities_atom_per_barn_cm": {
+    "H1": {
+      "original": 0.06687342530315572,
+      "half_density": 0.03343671265157786,
+      "ratio": 0.5
+    },
+    "O16": {
+      "original": 0.03343671265157786,
+      "half_density": 0.01671835632578893,
+      "ratio": 0.5
+    }
+  },
+  "fuel_composition": {
+    "O_to_U_atom_ratio": 1.9951125163313408,
+    "U235_atom_fraction_within_uranium": 0.02429841478082301,
+    "U235_mass_fraction_within_uranium": 0.023998942096654558
+  },
+  "volumes_cm3": {
+    "fuel": 0.4831931368640985,
+    "cladding": 0.17349975604625859,
+    "water": 0.9309071070896431,
+    "sum": 1.5876000000000001,
+    "outer_box": 1.5876000000000001
+  },
+  "region_membership": [
+    {
+      "point_cm": [
+        0,
+        0,
+        0
+      ],
+      "cells": [
+        "fuel"
+      ]
+    },
+    {
+      "point_cm": [
+        0.42,
+        0,
+        0
+      ],
+      "cells": [
+        "cladding"
+      ]
+    },
+    {
+      "point_cm": [
+        0.5,
+        0,
+        0
+      ],
+      "cells": [
+        "water"
+      ]
+    },
+    {
+      "point_cm": [
+        0.62,
+        0.62,
+        0
+      ],
+      "cells": [
+        "water"
+      ]
+    },
+    {
+      "point_cm": [
+        0.7,
+        0,
+        0
+      ],
+      "cells": []
+    }
+  ]
+}
